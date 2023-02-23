@@ -32,7 +32,7 @@ import React, { Component } from 'react';
     render() {
         return (
             <div>
-                <h2>{this.props.welcome} it is {this.state.date.toLocaleTimeString()}.</h2>
+                <h2>Hello, {this.props.name} it is {this.state.date.toLocaleTimeString()}.</h2>
             </div>
         );
     }

@@ -83,7 +83,7 @@ class App extends Component {
       // so table can use it later on 
       return (
         <div className="container">
-          <Clock welcome={<Welcome name='Dakota'/>}/>
+          <Clock name='Dakota'/>
           <Table 
             characterData={this.state.characters} 
             removeCharacter={this.removeCharacter} 
